@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El-Akeel Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-utensils"></i> El-Akeel Restaurant
+        </div>
+        <nav class="nav-link">
+            <a href="" class="home"><i class="fa-solid fa-house"></i> Home</a>
+            <a href="" class="menue-link"><i class="fa-brands fa-yelp"></i> Menu</a>
+            <a href="" class="cart-link"><i class="fa-brands fa-opencart"></i>  Cart (<span class="cartCount">0</span>)</a>
+
+        </nav>
+        <button class="menu active"><i class="fas fa-bars"></i></button>
+    </header>
+    <main>
+        <div class="content">
+            <h1>Delicious Food at Your Fingertips</h1>
+            <p>Order now and enjoy an unforgettable taste with our fast delivery service</p>
+            <a href="" class="btn view">View Menu</a>
+        </div>
+    </main>
+    <section  class="about" style="display: none;">
+        <h2>About Our Restaurant</h2>
+        <div class="about-content">
+            <p>Welcome to <strong>El-Akeel Restaurant</strong>! We offer the finest and most delicious burgers, pizzas, and
+                fresh juices prepared with high-quality ingredients. Our goal is to deliver authentic taste with fast and
+                reliable service to your doorstep.</p>
+        </div>
+    </section>
+    <section class="menu-section">
+        <h2 style="color: #e67e22;">Our Menu</h2>
+        <div class="buttons">
+            <button class="menue-btn" data-filter="all">All</button>
+            <button class="menue-btn" data-filter="burgers">Burgers</button>
+            <button class="menue-btn" data-filter="pizza">Pizza</button>
+            <button class="menue-btn" data-filter="drinks">Drinks</button>
+
+        </div>
+        <div class="menue-continar">
+           
+
+        </div>
+    </section> 
+    <section class="cart">
+        <h2 style="color: #e67e22;">Shopping cart</h2>
+        <div class="cart-item">
+            <p>Your cart is currently empty</p>
+        </div>
+        <div class="total">
+            <h3> Total: $<span class="totalPrice">0</span></h3>
+            <button class="btn checkout-btn">Checkout Order</button>
+        </div>
+        
+    </section>
+    <footer>
+        <p>All Rights Reserved © 2026 - El-Akeel Restaurant</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
